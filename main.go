@@ -195,7 +195,7 @@ func main() {
 	// }
 
 	// Database connection settings
-	connectionName := "Connection-Name"
+	connectionName := "assigment5-stack-github:us-central1:mypostgres"
 	dbUser := "postgres"
 	dbPass := "root"
 	dbName := "chicago_business_intelligence"
@@ -282,7 +282,7 @@ func GetTaxiTrips(db *sql.DB) error {
 	// Get your geocoder.ApiKey from here :
 	// https://developers.google.com/maps/documentation/geocoding/get-api-key?authuser=2
 
-	geocoder.ApiKey = "API-KEY"
+	geocoder.ApiKey = "AIzaSyCwx61P_0VFMenoqonJo7vDym1iY5SYSKA"
 
 	
 
